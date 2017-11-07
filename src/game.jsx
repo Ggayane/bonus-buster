@@ -14,7 +14,6 @@ class Game extends Component {
     setupTraviso() {
         ////// Here, we initialize the pixi application
         const {innerWidth, innerHeight} = window;
-        console.log(innerWidth, innerHeight);
         this.pixiRoot = new PIXI.Application(innerWidth, innerHeight, { backgroundColor : 0x6BACDE });
         // add the renderer view element to the DOM
         document.body.appendChild(this.pixiRoot.view);
