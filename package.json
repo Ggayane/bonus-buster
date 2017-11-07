@@ -6,10 +6,10 @@
     "lint": "eslint src",
     "start": "node server.js"
   },
-  "repository": "",
-  "author": "",
+  "repository": "https://github.com/Ggayane/bonus-buster",
+  "author": "editor team",
   "license": "MIT",
-  "homepage": "#",
+  "homepage": "https://github.com/Ggayane/bonus-buster",
   "devDependencies": {
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
