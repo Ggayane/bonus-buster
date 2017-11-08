@@ -14,6 +14,8 @@
       background-image: url('~/assets/images/cover.jpg');
       filter: blur(15px);
       z-index: -1;
+      background-repeat: no-repeat;
+      background-size: cover;
     }
     .form-container {
       width: 30vw;
