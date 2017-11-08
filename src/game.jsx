@@ -61,6 +61,7 @@ class Game extends Component {
     }
 
     render() {
+        console.log('gender = ', this.props.gender);
         return this.state.loading ? this.loadProgressHandler() : null;
     }
 }

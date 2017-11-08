@@ -11,12 +11,19 @@ class App extends Component {
     }
   }
 
+  startGame(gender) {
+    this.setState({
+      renderGame: true,
+      gender
+    })
+  }
+
   render() {
-    const {renderGame} = this.state;
+    const {renderGame, gender} = this.state;
       if (!renderGame) {
-        return <Login startGame={() => { this.setState({renderGame: true}) }} />;
+        return <Login startGame={gender => this.startGame(gender)} />;
       }
-      return <Game />;
+      return <Game gender={gender} />;
   }
 }
 export default App;
